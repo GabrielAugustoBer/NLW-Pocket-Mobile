@@ -9,7 +9,7 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/images/splash-icon.png",
+      "image": "./assets/images/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#257F49"
     },
@@ -17,6 +17,8 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.exemplo.meuapp",
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#257F49"
@@ -41,7 +43,6 @@
       "eas": {
         "projectId": "a46c71ce-73b7-412e-aa17-b5d9301102b4"
       }
-    },
-    "owner": "gabrielaugustober"
+    }
   }
 }

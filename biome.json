@@ -7,7 +7,7 @@
 	},
 	"files": {
 		"ignoreUnknown": false,
-		"ignore": []
+		"ignore": ["node_modules", "dist", "build", ".env"]
 	},
 	"formatter": {
 		"enabled": true,
@@ -17,11 +17,18 @@
 		"enabled": true
 	},
 	"linter": {
-		"enabled": true,
-		"rules": {
-			"recommended": true
-		}
-	},
+    "enabled": true,
+    "rules": {
+		"recommended": true,
+		"correctness": {
+			"useExhaustiveDependencies": "off"
+		},
+      "style": {
+        "useImportType": "off",
+		"useTemplate": "off"
+      }
+    }
+  },
 	"javascript": {
 		"formatter": {
 			"quoteStyle": "double"

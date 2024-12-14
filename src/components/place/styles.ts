@@ -36,8 +36,7 @@ export const s = StyleSheet.create({
   footer: {
     flexDirection: "row",
     gap: 7,
-	marginTop: 10,
-	alignItems: "center",
+    marginTop: 10,
   },
   tickets: {
     fontSize: 12,
